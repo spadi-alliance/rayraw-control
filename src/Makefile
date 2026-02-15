@@ -1,5 +1,6 @@
 BIN_DIR		= ../bin
-CXXFLAGS 	+= -Wall -g -MMD -std=c++0x
+# CXXFLAGS 	+= -Wall -g -MMD -std=c++0x
+CXXFLAGS 	+= -Wall -g -MMD -std=c++17
 LDFLAGS		+=
 
 SRCALL 		= $(wildcard *.cc)
